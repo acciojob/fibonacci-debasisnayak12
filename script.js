@@ -3,8 +3,8 @@ function fibonacci(num) {
 	  let a = 0;
 	  let b = 1;
 	  let next;
-	  let i = 1;
-	if(num === 0){
+	  let i = 2;
+	if(num === 0 || num === 1){
 		return a;
 	}
 	while(i <= num){
