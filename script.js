@@ -6,12 +6,10 @@ function fibonacci(num) {
 	  let a = 0;
 	  let b = 1;
 	  let next;
-	let i = 2;
-	while(i <= num){
+	for (let i = 2; i <= num; i++){
 		next = a + b;
 		a = b;
 		b = next;
-		i++;
 	}
 	return b;
 }
